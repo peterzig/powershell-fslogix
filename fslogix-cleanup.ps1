@@ -8,7 +8,7 @@ $temp = New-Object PSObject -Property @{
 }
 
 $downloads = New-Object PSObject -Property @{
-    first_path = "\\it.polsl.pl\dfs\folder_redirection\"
+    first_path = "*path_to_Downloads*
     second_path = $env:USERNAME
     third_path = "\Downloads"
 }
